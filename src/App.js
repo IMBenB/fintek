@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './view/header/header'
 import Headline from './view/headLine/headLine'
 import Description from './view/description/description'
-import staffData from './data/staff.json'
+
 import Card from './view/card/card'
 
 
@@ -32,12 +32,14 @@ class App extends React.Component {
           </div>
           <div className="rightColumn">
          
-            {staffData.map((element, index) => {
-
-              return (
                
-                <Card elm={element} />)
-            })}
+                <Card  />
+                <Card  />
+                <Card  />
+                <Card  />
+                <Card  />
+                <Card  />
+           
 
 
           </div>

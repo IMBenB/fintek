@@ -1,4 +1,5 @@
 import React from 'react';
+import './headLine.css'
 
 
 class Headerline extends React.Component {
@@ -8,9 +9,9 @@ class Headerline extends React.Component {
 
         return (
 
-            <h1 >
+            <div className="headline" >
                 Execution is everything
-            </h1>
+            </div>
         )
     }
 }
