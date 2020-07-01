@@ -31,8 +31,9 @@
 
 
   @media only screen and (max-width: 360px) {
+   
 
-    .body{
+    .siteBody{
       display: inline-block;
     }
     .rightColumn{

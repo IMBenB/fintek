@@ -9,22 +9,12 @@ import Card from './view/card/card'
 import './App.css';
 
 class App extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  //   this.state = {
-  //     staff: {staffData}
-  //   }
 
-  // this.setState({
-  //   staff: {staffData}
-  // })
-  // console.log(this.state.staff)
-  // }
   render() {
     return (
       <div className="App">
         <Header />
-        <div className="body">
+        <div className="siteBody">
           <div className="leftColumn">
             <Headline />
             <Description />
