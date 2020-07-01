@@ -18,7 +18,9 @@ class Description extends React.Component {
                     Our mission
                 </div>
                 <div className="description_info">
-                    we want to give our clients the best and help their businesses succeed. Together we can make you inspire to growth to even ,ore than where you are today.                </div>
+                    we want to give our clients the best and help their businesses succeed. Together we can make you inspire to growth to even ,ore than where you are today.
+                </div>
+
             </div>
         )
     }

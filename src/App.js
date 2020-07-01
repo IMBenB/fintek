@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './view/header/header'
 import Headline from './view/headLine/headLine'
 import Description from './view/description/description'
+import Card from './view/card/card'
+
 
 import './App.css';
 
@@ -16,12 +18,9 @@ function App() {
 
         </div>
         <div className="rightColumn">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-          <div>5</div>
-          <div>6</div>
+          <Card/>
+    
+         
         </div>
       </div>
     </div>
